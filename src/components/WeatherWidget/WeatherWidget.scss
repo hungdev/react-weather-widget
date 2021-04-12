@@ -1,0 +1,61 @@
+.weather-widget {
+  padding: 20px;
+
+  .place {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333333;
+  }
+  .time {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #666666;
+  
+  }
+
+  .information {
+    display: flex;
+    margin-top: 20px;
+  }
+
+  .temperature {
+    font-size: 44px;
+    font-weight: bold;
+    /* line-height: 52px; */
+  }
+  .degree-wrapper {
+    margin: 10px;
+  }
+  
+  .temperature-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex: 1
+  }
+
+  .humidity-wrapper {
+    flex: 1;
+    font-size: 14px;
+  }
+
+  .degree {
+    cursor: pointer;
+    color: #888888;
+    font-weight: bold;
+  }
+
+  .degree-active {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .cloud {
+    height: 160px;
+    width: 160px;
+  }
+}
+.not-found {
+  text-align: center;
+}
